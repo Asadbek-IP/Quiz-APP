@@ -13,7 +13,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   var _elementIndex = 0;
 
-  void answerQuestion() {
+  void _answerQuestion() {
     setState(() {
       _elementIndex += 1;
     });
